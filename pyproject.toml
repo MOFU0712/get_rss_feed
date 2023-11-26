@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "get-rss-feed"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "get_rss_feed"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+feedparser = "^6.0.10"
+pytz = "^2023.3.post1"
+pandas = "2.0.0"
+spacy = "^3.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

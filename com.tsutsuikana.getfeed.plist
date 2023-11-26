@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.tsutsuikana.getfeed</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/tsutsuikana/get_rss_feed/.venv/bin/python3</string>
+        <string>/Users/tsutsuikana/get_rss_feed/get_rss_feed.py</string>
+    </array>
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>19</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+    <key>StandardOutPath</key>
+    <string>/Users/tsutsuikana/get_rss_feed/test.out</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/tsutsuikana/get_rss_feed/test.err</string>
+</dict>
+</plist>
